@@ -2,7 +2,7 @@
 A program that can evaluate arithmetic operators with integer numbers having any number of digits. The goal of this homework is to explore basic lexical and syntactic analysis.
 
 program call: python3  infint.py "input=[input file name];digitsPerNode=[number of digits per node]" >> [output file name]
-example: python3  infint.py "input=math1.txt;digitsPerNode3" >> solution
+example: python3  infint.py "input=tc1.txt;digitsPerNode3" >> ans1.out
 
 **** MY CODE IS BUILT TO HANDLE THE DIGITSPERNODE PARAMETER ****
 I designed this program to accept a digits per node parameter, but it will use a default value of 3 if none is provided.
